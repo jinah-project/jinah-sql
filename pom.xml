@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>com.obadaro.jinah</groupId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>jinah-sql</artifactId>
+	<version>1.1.0</version>
+	<name>JINAH SQL lib</name>
+
+    <url>http://www.obadaro.com/jinah/jinah-sql</url>
+    
+    <licenses>
+      <license>
+        <name>Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      </license>
+    </licenses>
+    
+    <developers>
+      <developer>
+        <id>obadaro</id>
+        <name>Roberto Badaro</name>
+      </developer>
+    </developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.obadaro.jinah</groupId>
+			<artifactId>jinah-common</artifactId>
+	        <version>1.1.0</version>
+		</dependency>
+	</dependencies>
+	
+    <scm>
+        <connection>scm:git:git://github.com/jinah-project/jinah-sql.git</connection>
+        <developerConnection>scm:git:git@github.com:jinah-project/jinah-sql.git</developerConnection>
+        <url>https://github.com/jinah-project/jinah-sql</url>
+    </scm>
+	
+</project>
